@@ -1,6 +1,5 @@
 import { useGSAP } from "@gsap/react";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
-import Marquee from "../components/Marquee";
 import { socials } from "../constants";
 import gsap from "gsap";
 
@@ -76,7 +75,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Marquee items={items} className="text-white bg-transparent" />
     </section>
   );
 };

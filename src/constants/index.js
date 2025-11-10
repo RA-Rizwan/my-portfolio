@@ -20,28 +20,9 @@ export const servicesData = [
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
-    description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
-    items: [
-      {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
-      },
-      {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
-      },
-      {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
-      },
-    ],
-  },
-  {
     title: "Security & Optimization",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Slow or hacked Websites destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your web stays fast, safe, and scalable as you grow.",
     items: [
       {
         title: "Code Audits",
@@ -58,20 +39,20 @@ export const servicesData = [
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Web Apps",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Responsive, scalable, and pixel-perfect MERN stack web applications that blend design, performance, and real-world usability.",
     items: [
       {
-        title: "Cross-Platform Apps",
+        title: "Cross-Platform Compatibility",
         description: "(Single codebase for iOS/Android/Web)",
       },
       {
-        title: "PWAs",
+        title: "Progressive Web Apps",
         description: "(Offline mode, Push Notifications)",
       },
       {
-        title: "E-Commerce",
+        title: "E-Commerce & SaaS Platforms",
         description: "(Checkout flows, Payment Gateways, Inventory APIs)",
       },
     ],
@@ -80,11 +61,11 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "AI-powered Image Background Removal",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "Full-stack AI background-removal web application with secure authentication, credit-based usage, and real- time payment integration",
     href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+    image: "/assets/projects/Bg-remover.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -95,81 +76,79 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "Dn Store E-commerce",
     description:
       "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
+    image: "/assets/projects/dn-store.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 2, name: "CSS" },
+  
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "WS Cube",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "Career Opportunities in Digital Marketing.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+    image: "/assets/projects/ws-cube.png",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "React" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "Html" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "Bootstrap" },
+      { id: 4, name: "Javascript" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Auth Page",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "Auth page in React with form validation and Auth0 integration.",
     href: "",
-    image: "/assets/projects/electronics-store.jpg",
+    image: "/assets/projects/auth-page.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 2, name: "Tailwind CSS" },
+      { id: 3, name: "Auth 0" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "Restaurant",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "Allow our Chef to deliver the perfect private dinner or cocktail party experience in your home; or let us simply add a little extra flavor to your next office meeting, boat trip, or beach picnic.",
     href: "",
-    image: "/assets/projects/home-decor-store.jpg",
+    image: "/assets/projects/restaurant.png",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Material UI" },
+      { id: 1, name: "Html" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "Bootstrap" },
+      { id: 4, name: "Javascript" },
     ],
   },
   {
     id: 6,
-    name: "Digital Game Store",
+    name: "Positivus",
     description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
+      "Navigating the digital landscape for success",
     href: "",
-    image: "/assets/projects/game-store.jpg",
+    image: "/assets/projects/positivus.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "Html" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "Bootstrap" },
+      { id: 4, name: "Javascript" },
     ],
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/german_spiderman_02" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/ra-rizwan/" },
   { name: "GitHub", href: "https://github.com/RA-Rizwan" },
 ];
