@@ -64,7 +64,7 @@ export const projects = [
     name: "AI-powered Image Background Removal",
     description:
       "Full-stack AI background-removal web application with secure authentication, credit-based usage, and real- time payment integration",
-    href: "",
+    href: "https://bg-remover-two-theta.vercel.app",
     image: "/assets/projects/Bg-remover.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
@@ -79,7 +79,7 @@ export const projects = [
     name: "Dn Store E-commerce",
     description:
       "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
-    href: "",
+    href: "https://dn-store-rizwan.vercel.app",
     image: "/assets/projects/dn-store.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
@@ -93,7 +93,7 @@ export const projects = [
     name: "WS Cube",
     description:
       "Career Opportunities in Digital Marketing.",
-    href: "",
+    href: "https://wscubes.netlify.app",
     image: "/assets/projects/ws-cube.png",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
@@ -108,7 +108,7 @@ export const projects = [
     name: "Auth Page",
     description:
       "Auth page in React with form validation and Auth0 integration.",
-    href: "",
+    href: "https://rizwan-auth.vercel.app",
     image: "/assets/projects/auth-page.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
@@ -122,7 +122,7 @@ export const projects = [
     name: "Restaurant",
     description:
       "Allow our Chef to deliver the perfect private dinner or cocktail party experience in your home; or let us simply add a little extra flavor to your next office meeting, boat trip, or beach picnic.",
-    href: "",
+    href: "https://magenta-panda-5c2c6a.netlify.app",
     image: "/assets/projects/restaurant.png",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
@@ -137,7 +137,7 @@ export const projects = [
     name: "Positivus",
     description:
       "Navigating the digital landscape for success",
-    href: "",
+    href: "https://startling-gumption-e2574c.netlify.app",
     image: "/assets/projects/positivus.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
